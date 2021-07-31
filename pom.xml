@@ -74,6 +74,19 @@
         </dependencies>
     </dependencyManagement>
 
+	<repositories>	
+		<repository>
+			<id>artifacts</id>
+			<url>https://pkgs.dev.azure.com/amolmandloi7/helloworld/_packaging/artifacts/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
     <build>
         <pluginManagement>
             <plugins>
